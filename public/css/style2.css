@@ -1,0 +1,190 @@
+.bg1{
+    background-color: #ffffff;
+    height: 200px;
+}
+.bg2{
+    background-color: #ffffff;
+    height: 120px;
+    width: auto;
+    outline-color: rgb(0, 0, 0);
+    outline-width: 1pt;
+    outline-style: solid;
+}
+.bg3{
+    background-color: #ffffff;
+    height: 740px;
+    width: 560px;
+}
+.bg4{
+    background-color: #ffffff;
+    height: 620px;
+    width: auto;
+    outline-color: rgb(0, 0, 0);
+    outline-width: 1pt;
+    outline-style: solid;
+}
+.bg5{
+    background-color: #ffffff;
+    height:50px;
+    width: 560px;
+}
+.bg6{
+    background-color: #ffffff;
+    height: 90px;
+    width: 560px;
+}
+.bg7{
+    background-color: #ffffff;
+    height: 400px;
+    width: 560px;
+}
+.bg8{
+    background-color: #ffffff;
+    height: 50px;
+    width: auto;
+}
+.bg9{
+    background-color: #b3fa89;
+}
+.btnhome{
+    background-color: #ffffff;
+    border-color: #ffffff;
+    text-align: center;
+    font-size: x-large;
+	border: 1px solid #ffffff;
+	border-radius: 25px;
+	padding: 3px 130px;
+    color: rgb(40, 0, 151);
+}
+.btnhome:hover{
+    background-color:  rgb(40, 0, 151);	
+    color:white;
+}
+.btnprofil{
+    background-color: #ffffff;
+    border-color: #ffffff;
+    text-align: center;
+    font-size: x-large;
+	border: 1px solid #ffffff;
+	border-radius: 25px;
+	padding: 3px 155px;
+    color:  rgb(40, 0, 151);	
+}
+.btnprofil:hover{
+    background-color:  rgb(40, 0, 151);	
+    color:white;
+}
+.btnpost{
+    background-color: #ffc402;
+    border-color: #ffc402;
+    text-align: center;
+    font-size: x-large;
+	border: 1px solid #ffc402;
+	border-radius: 25px;
+	padding: 1px 70px;
+    color:  rgb(15, 0, 58);	
+}
+.btnpost:hover{
+    background-color:#dd8717;
+    border-color: #ffc402;
+    color:white;
+}
+.btnmenu{
+    background-color: #ffffff00;
+    text-align: center;
+    font-size: large;
+    color:  rgb(40, 0, 151);
+    border: 1px solid #00000000;	
+	border-radius: 25px;
+    cursor : pointer;
+	padding: 1px 10px;	
+    z-index: 3;
+}
+.btnmenu:hover{
+    color:rgb(172, 142, 255);	
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    z-index: 3;
+}
+.dropdown-child {
+    display: none;
+    background-color: rgb(40, 0, 151);
+    min-width: 200px;
+    z-index: 3;
+}
+.dropdown-child a {
+    color: white;
+    padding: 10px;
+    font-size: 20pt;
+    display: block;
+    z-index: 3;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+}
+.dropdown-child a:hover {
+    background-color:white;
+    color:rgb(40, 0, 151);
+    text-decoration: none;
+}
+.outline1{
+    outline-color: rgb(0, 0, 0);
+    outline-width: 1pt;
+    outline-style: solid;
+}
+.box1{
+    width: 1150px;
+    border: 1px solid rgb(0, 0, 0);
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+.logo-position{
+    position: absolute;
+    top: 5vh;
+    left: 15vh;
+}
+.beranda-position{
+    position: absolute;
+    top: 6vh;
+    left: 5vh;
+    font-size: 2em;
+    color :rgb(40, 0, 151);
+}
+.menu-position{
+    position: absolute;
+    top: 1vh;
+    left:4vh;
+    font-size:4em;
+}
+.search-position{
+    position: absolute;
+    top: 6vh;
+    right: 5vh;
+}
+.nav1-position{
+    position: absolute;
+    top: 1vh;
+    left: 0vh;
+    font-size: 2em;
+    color:rgb(40, 0, 151);
+}
+.nav2-position{
+    position: absolute;
+    top: 1vh;
+    left: 0vh;
+    font-size: 2em;
+    color: rgb(40, 0, 151);
+}
+.nav3-position{
+    position: absolute;
+    top: 3vh;
+    left: 13vh;
+    font-size: 2em;
+}
+.impact{
+    font-family: "open-sans", sans-serif;
+    font-weight: bold;
+}

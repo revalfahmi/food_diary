@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto&display=swap');
+
+/*font-family: 'Pacifico', cursive;
+font-family: 'Roboto', sans-serif;*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Roboto', sans-serif;;
+}
+:root{
+    --main-color:rgba(230, 226, 0, 0);
+}
+/* header */
+header {
+    background :url("/img/registerbg.png");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+/*main-header*/
+.main-header{
+    display:flex;
+    color:#fff;
+    justify-content:center;
+    align-items: center ;
+    width: 100vw;
+    text-align: center;
+    flex-direction: row;
+
+}
+.main-header .card{
+    flex: 1;
+}
+/*main header logo*/
+
+/* main header form */
+.main-header .form h1{
+    font-size: 3.5rem;
+    font-family: 'Roboto', sans-serif;;
+    color: #141259;
+    margin: 10px;
+    
+}
+.main-header .form .font-diary{
+    font-family: 'Pacifico', cursive;
+    color: #f2b705;
+}
+.main-header .form h3{
+    margin: 10px;
+}
+.main-header .form h2{
+    margin: 10px;
+    font-size: 3.5rem;
+}
+
+.main-header .form input{
+
+    width: 60%;
+    padding: 1rem 1rem;
+    font-size: 1.3rem;
+    margin: 5px;
+    text-align: left;
+    border-radius: 5px;
+    border:5px;
+    outline: none;
+}
+
+.main-header .form button{
+    width: 60%;
+    background-color: #f2b705;
+    color: #141259;
+    padding: 1rem 5rem;
+    font-size: 1.3rem;
+    margin: 1rem 0rem;
+    border-radius: 50px;
+    border: none;
+    transition: 0.5s;
+    outline: none;
+}
+.main-header .form button:hover{
+    transform: scale(1.2);
+}
+
+.main-header .form p,a{
+    columns: #f2b705;;
+    font-size: 1rem;
+}
+@media(max-width:1200px){
+    header{
+        background :url("registerbg.png");
+        background-size:cover;
+    }
+    .main-header .form h1{
+        font-size: 3.5rem;
+        font-family: 'Roboto', sans-serif;;
+        color: white;
+        margin: 10px;
+        
+    }
+    .main-header .logo{
+        display: none;
+    }
+    .main-header .form{
+        background: rgba(0,0,0,0.3);
+        padding: 20px 0px;
+        
+    }
+    .main-header{
+        flex-direction: row;
+    }
+}
